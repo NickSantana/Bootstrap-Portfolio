@@ -1,22 +1,9 @@
+
+
 body {
     width: 960px;
     margin: auto;
-    background-image: url(../images/what-the-hex.png);
-}
-
-ul {
-    text-align: right;
-    padding: 30px;
-}
-
-li {
-    display: inline;
-}
-
-.mainHeading {
-    color: #4aaaa5;
-    font-size: 25px;
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    background-image: url(../img/what-the-hex.png);
 }
 
 footer {
@@ -34,121 +21,37 @@ img {
     padding-left: 5px;
 }
 
-.headerNav {
-    background: whitesmoke;
-    width: 100%;
-    height: 75px;
-    margin: 10px auto;
-    border: 1px solid rgb(61, 61, 63);
+#aboutMe {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #6666;
+    margin: 10px;
+    height: 285px;
+    background-color: whitesmoke;
 }
 
-.myName {
-    background-color: #4aaaa5;
-    width: fit-content;
-    padding: 25px;
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
-    color: #ffff;
-    font-size: 25px;
-    float: left;
-    border-right: 1px solid rgb(61, 61, 63);
+.mainHeading {
+    font-size: 20px;
+    color: #0fa372;
 }
 
-.navlinks > ul > li:not(:last-child) {
-    border-right:solid 1px lightblue;
-    margin-right:3px;
+p {
+    font-size: 14px;
 }
 
-#main {
-    margin: 10px auto;
-    border: 1px solid rgb(61, 61, 63);
-    width: 100%;
-    height: 425px;
-    background: whitesmoke;
-}
-
-section {
+.container {
     padding: 10px;
     text-align: center;
+    border: 1px solid #6666;
+    margin: 10px;
+    height: 355px;
+    background-color: whitesmoke;
 }
 
-form {
-    font-size: 25px;
-    padding: 15px;
-    color:  #4aaaa5;
-}
-
-#formName {
-    padding: 5px;
-}
-
-#formEmail {
-    padding: 8px;
-}
-
-#formMessage {
-    padding: 10px;
-    height: 158px;
+input {
+    width: 100%;
 }
 
 textarea {
     width: 100%;
-    height: 130px;
-    margin-top: 7px;
 }
-
-.message {
-    padding: 10px;
-    height: 13px;
-}
-
-button {
-    font-size: 15px;
-    margin: 10px;
-}
-
-.footerText {
-    text-align: center;
-}
-
-#aboutMe {
-    padding: 10px;
-    font-size: 22px;
-    text-align: left;
-}
-
-#portfolioMain {
-    margin: 10px auto;
-    border: 1px solid rgb(61, 61, 63);
-    width: 98%;
-    height: 425px;
-    background: whitesmoke;
-    padding: 10px;
-}
-
-.col-4 {
-    float: left;
-}
-
-.gallery {
-    margin: 1px;
-    float: left;
-    width: 33%;
-}
-
-.gallery:hover {
-    border: 1px solid #777;
-}
-
-.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-    color: #4aaaa5;
-    font-size: 20px;
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
-}
-
