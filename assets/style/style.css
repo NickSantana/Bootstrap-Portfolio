@@ -21,9 +21,6 @@ img {
     padding-left: 5px;
 }
 
-.mainHeading {
-    font-size: 20px;
-    color: #0fa372;
 }
 
 p {
@@ -52,4 +49,8 @@ textarea {
 
 h5 {
     float: left;
+}
+
+.col-sm h5 {
+    width: 100%
 }
