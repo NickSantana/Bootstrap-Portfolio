@@ -21,15 +21,6 @@ img {
     padding-left: 5px;
 }
 
-#aboutMe {
-    padding: 10px;
-    text-align: left;
-    border: 1px solid #6666;
-    margin: 10px;
-    height: 285px;
-    background-color: whitesmoke;
-}
-
 .mainHeading {
     font-size: 20px;
     color: #0fa372;
@@ -41,10 +32,8 @@ p {
 
 .container {
     padding: 10px;
-    text-align: center;
     border: 1px solid #6666;
     margin: 10px;
-    height: 355px;
     background-color: whitesmoke;
 }
 
@@ -54,4 +43,13 @@ input {
 
 textarea {
     width: 100%;
+}
+
+.contact {
+    text-align: center;
+    height: 355px;
+}
+
+h5 {
+    float: left;
 }
